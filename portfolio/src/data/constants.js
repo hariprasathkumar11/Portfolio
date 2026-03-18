@@ -26,7 +26,7 @@ export const SKILLS = {
 
 export const EXPERIENCES = [
   {
-    role: "Data Annotation Specialist",
+    role: "Data Associate",
     company: "Hurix Digital",
     location: "Chennai",
     period: "Nov 2025 – Present",
@@ -37,7 +37,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    role: "Data Annotation Specialist",
+    role: "Senior Analyst",
     company: "Objectways Technology",
     location: "Karur",
     period: "Apr 2023 – Aug 2025",
