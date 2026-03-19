@@ -53,7 +53,7 @@ export default function Experience({ visible }) {
                   border: "1px solid #e2e8f0",
                   borderRadius: "14px",
                   padding: "1.8rem",
-                  boxShadow: "0 1px 8px rgba(0,0,0,0.04)",
+                  boxShadow: "0 1px 8px rgba(0,0,0,0.05)",
                 }}
               >
                 <div
