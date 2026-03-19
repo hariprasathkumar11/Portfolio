@@ -7,9 +7,9 @@ export const PERSONAL = {
   email: "hariprasathkr14@gmail.com",
   phone: "8825767806",
   education: "BCA – Jairams Arts & Science College, Karur (2020–2023)",
-  whatsapp: "918825767806", // country code + number
-  linkedin: "https://www.linkedin.com/in/hariprasath-k-bb1467283?utm_source=share_via&utm_content=profile&utm_medium=member_android", // 🔁 Replace with real URL
-  github: "https://github.com/hariprasathkumar11",             // 🔁 Replace with real URL
+  whatsapp: "918825767806",
+  linkedin: "https://www.linkedin.com/in/hariprasath-k-bb1467283?utm_source=share_via&utm_content=profile&utm_medium=member_android", 
+  github: "https://github.com/hariprasathkumar11",             
   summary:
     "2+ years crafting AI/ML datasets & scalable web applications. From LiDAR annotations to full-stack React apps — precision in every pixel.",
 };
