@@ -7,9 +7,9 @@ export const PERSONAL = {
   email: "hariprasathkr14@gmail.com",
   phone: "8825767806",
   education: "BCA – Jairams Arts & Science College, Karur (2020–2023)",
-  whatsapp: "918825767806",
-  linkedin: "https://www.linkedin.com/in/hariprasath-k-bb1467283?utm_source=share_via&utm_content=profile&utm_medium=member_android", 
-  github: "https://github.com/hariprasathkumar11",             
+  whatsapp: "918825767806", // country code + number
+  linkedin: "https://www.linkedin.com/in/your-linkedin-id", // 🔁 Replace with real URL
+  github: "https://github.com/your-github-id",             // 🔁 Replace with real URL
   summary:
     "2+ years crafting AI/ML datasets & scalable web applications. From LiDAR annotations to full-stack React apps — precision in every pixel.",
 };
@@ -26,7 +26,7 @@ export const SKILLS = {
 
 export const EXPERIENCES = [
   {
-    role: "Data Associate",
+    role: "Data Annotation Specialist",
     company: "Hurix Digital",
     location: "Chennai",
     period: "Nov 2025 – Present",
@@ -37,7 +37,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    role: "Senior Analyst",
+    role: "Data Annotation Specialist",
     company: "Objectways Technology",
     location: "Karur",
     period: "Apr 2023 – Aug 2025",
@@ -63,6 +63,7 @@ export const PROJECTS = [
     color: "#a78bfa",
     desc: "Single-page application with reusable components, client-side routing, REST API integration, and state management for seamless turf search and booking workflows.",
     icon: "🏟️",
+    link: "https://hariprasathkumar11.github.io/Turf-ticket-booking/",
   },
   {
     title: "Restaurant Management Website",
@@ -70,5 +71,6 @@ export const PROJECTS = [
     color: "#34d399",
     desc: "Responsive, user-friendly web app with interactive UI components, dynamic content handling, cross-browser compatibility, and front-end validation.",
     icon: "🍽️",
+    link: "https://hariprasathkumar11.github.io/Restaurant-Management-System/",
   },
 ];

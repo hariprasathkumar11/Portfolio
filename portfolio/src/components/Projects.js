@@ -62,6 +62,36 @@ export default function Projects({ visible }) {
               <p style={{ color: "#94a3b8", fontSize: "0.88rem", lineHeight: 1.7 }}>
                 {project.desc}
               </p>
+
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "inline-block",
+                    marginTop: "1.2rem",
+                    padding: "0.4rem 1rem",
+                    border: `1px solid ${project.color}`,
+                    borderRadius: "8px",
+                    color: project.color,
+                    fontSize: "0.82rem",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                    transition: "background 0.2s, color 0.2s",
+                  }}
+                  onMouseEnter={e => {
+                    e.currentTarget.style.background = project.color;
+                    e.currentTarget.style.color = "#0f172a";
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.background = "transparent";
+                    e.currentTarget.style.color = project.color;
+                  }}
+                >
+                  View Project →
+                </a>
+              )}
             </div>
           ))}
         </div>
